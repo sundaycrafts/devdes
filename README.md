@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5e7fde49-b652-41c2-a527-b4794e2fdd29/deploy-status)](https://app.netlify.com/sites/dev-devdes-ink-0b255c/deploys)
+
 <h1 align="center">
     <img alt="Lumen" title="Lumen" src="https://github.com/alxshelepenok/gatsby-starter-lumen/blob/gatsby-v2/.github/logo.png" width="140"> </br>
     Lumen
