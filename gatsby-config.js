@@ -14,7 +14,16 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://dev.devdes.ink",
+        sitemap: "https://dev.devdes.ink/sitemap.xml",
+        // FIXME: remove after prepared to make public
+        policy: [{ userAgent: "*", disallow: ["/"] }]
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content`,
         name: "pages"
