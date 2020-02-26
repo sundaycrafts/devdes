@@ -1,13 +1,12 @@
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://dev.devdes.ink",
   pathPrefix: "/",
-  title: "Blog by John Doe",
-  subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  title: "Dev/Des.ink",
+  subtitle: "Sharing knowledge of development and design.",
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-50249312-2",
   useKatex: false,
   menu: [
     {
@@ -24,20 +23,19 @@ module.exports = {
     }
   ],
   author: {
-    name: "John Doe",
+    name: "Hiroto Murai",
     photo: "/photo.jpg",
-    bio:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    bio: "UX/UI designer, Full-stack developer",
     contacts: {
       email: "",
-      facebook: "#",
-      telegram: "#",
-      twitter: "#",
-      github: "#",
+      facebook: "hiroto.murai",
+      telegram: "",
+      twitter: "",
+      github: "sundaycrafts",
       rss: "",
       vkontakte: "",
-      linkedin: "#",
-      instagram: "#",
+      linkedin: "",
+      instagram: "",
       line: "",
       gitlab: "",
       weibo: "",
