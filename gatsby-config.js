@@ -196,7 +196,28 @@ module.exports = {
         background_color: "#FFF",
         theme_color: "#F7A046",
         display: "standalone",
-        icon: "static/photo.jpg"
+        icons: [
+          {
+            src: "favicon/favicon.png",
+            sizes: "48x48",
+            type: "image/png"
+          },
+          {
+            src: "favicon/favicon@2x.png",
+            sizes: "96x96",
+            type: "image/png"
+          },
+          {
+            src: "favicon/favicon@3x.png",
+            sizes: "144x144",
+            type: "image/png"
+          },
+          {
+            src: "favicon/favicon@4x.png",
+            sizes: "192x192",
+            type: "image/png"
+          }
+        ]
       }
     },
     "gatsby-plugin-offline",
