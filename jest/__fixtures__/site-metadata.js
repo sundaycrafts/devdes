@@ -33,6 +33,10 @@ module.exports = {
           rss: "#",
           vkontakte: "#"
         }
+      },
+      ogp: {
+        fbAppId: "12345678",
+        image: "og-image.png"
       }
     }
   }

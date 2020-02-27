@@ -38,6 +38,10 @@ const useSiteMetadata = () => {
             subtitle
             copyright
             disqusShortname
+            ogp {
+              fbAppId
+              image
+            }
           }
         }
       }

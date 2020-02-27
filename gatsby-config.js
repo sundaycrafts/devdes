@@ -10,7 +10,11 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    author: siteConfig.author,
+    ogp: {
+      fbAppId: siteConfig.ogp.fbAppId,
+      image: siteConfig.ogp.image
+    }
   },
   plugins: [
     {

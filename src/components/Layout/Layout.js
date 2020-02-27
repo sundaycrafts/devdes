@@ -14,8 +14,8 @@ type Props = {
 };
 
 const Layout = ({ children, title, description, socialImage }: Props) => {
-  const { author, url } = useSiteMetadata();
-  const metaImage = socialImage != null ? socialImage : author.photo;
+  const { ogp, url } = useSiteMetadata();
+  const metaImage = socialImage != null ? socialImage : ogp.image;
   const metaImageUrl = url + withPrefix(metaImage);
 
   return (
@@ -26,6 +26,7 @@ const Layout = ({ children, title, description, socialImage }: Props) => {
         <meta name="description" content={description} />
         <meta property="og:site_name" content={title} />
         <meta property="og:image" content={metaImageUrl} />
+        <meta property="fb:app_id" content={ogp.fbAppId} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

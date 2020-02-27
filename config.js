@@ -43,5 +43,9 @@ module.exports = {
       youtube: "",
       soundcloud: ""
     }
+  },
+  ogp: {
+    fbAppId: "184592906161459",
+    image: "og-image.png"
   }
 };
