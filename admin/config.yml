@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   repo: sundaycrafts/devdes
   branch: master
+site_url: https://dev.devdes.ink
 publish_mode: editorial_workflow
 media_folder: "static/media"
 collections:
